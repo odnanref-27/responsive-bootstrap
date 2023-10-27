@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design y Bootstrap</title>
+    <link rel="stylesheet" href="style.css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">LOREM IMPSUM</a>
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container-lg d-flex">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="d-block d-lg-none">
+                        <form class role="search">
+                            <input type="search" class="form-control me-2 mt-3" placeholder="Search"
+                                aria-label="Search">
+                        </form>
+                    </div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item me-5">
+                            <a class="nav-link active" aria-current="page" href="#">Dolor</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link" disable>Site</a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link" disable>Arnet</a>
+                        </li>
+                        <i class="d-inline-flex d-lg-none">
+                            <a class="nav-link active fst-normal collapsed" data-bs-toggle="collapse" href="#showOption"
+                                role="button" aria-expanded="false" aria-controls="showOption">Opciones</a>
+                        </i>
+                    </ul>
+                    <div class="d-none d-lg-block ml-auto">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="search">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-md mt-5 mb-5 d-none d-lg-block">
+        <div class="container text-center">
+            <h1 class="text-center fs-4 fw-semibold">Lorem impsum</h1>
+        </div>
+
+        <div class="container text-center">
+            <div id="textcarrucel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item text-center active">
+                        Expedita, aliquan nobis fuga cupiditate perferendis sed.
+                    </div>
+                    <div class="carousel-item text-center">
+                        Sit amet consectetur adipisicing elit
+                    </div>
+                    <div class="carousel-item text-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="container" style="display: flex;">
+
+
+        <div class="container-md d-lg-none col-12 col-md-9 collapse" id="showOption">
+            <div id="list-example" class="list-group mt-2">
+                <a class="list-group-item list-group-item-action  text-decoration-underline" href="#list-item-1">Opcion
+                    1</a>
+                <a class="list-group-item list-group-item-action  text-decoration-underline" href="#list-item-2">Opcion
+                    2</a>
+                <a class="list-group-item list-group-item-action  text-decoration-underline" href="#list-item-3">Opcion
+                    3</a>
+                <a class="list-group-item list-group-item-action  text-decoration-underline" href="#list-item-4">Opcion
+                    4</a>
+            </div>
+        </div>
+
+        <div class="col-12 col-md-3 d-none d-lg-block">
+            <div id="list-example" class="list-group mt-2">
+                <a class="list-group-item list-group-item-action  text-decoration-underline" href="#list-item-1">Opcion
+                    1</a>
+                <a class="list-group-item list-group-item-action  text-decoration-underline" href="#list-item-2">Opcion
+                    2</a>
+                <a class="list-group-item list-group-item-action  text-decoration-underline" href="#list-item-3">Opcion
+                    3</a>
+                <a class="list-group-item list-group-item-action  text-decoration-underline" href="#list-item-4">Opcion
+                    4</a>
+            </div>
+        </div>
+        <div id="tablas" class="position-relative" style="display: flex;">
+            <div class="container">
+                <div class="row mt-2" style="text-align: justify;">
+                    <div id="tabla1" class="row align-items-start">
+                        <div class="col-12 col-md-12 col-lg-4 mb-3">
+                            <div class="card-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis
+                                    voluptatum et
+                                    est,
+                                    reprehenderit sit consequatur ad, voluptates perferendis quisquam quaerat qui?
+                                    Temporibus,
+                                    omnis
+                                    quasi! Doloremque nihil vel aut eius odit.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-12 col-lg-4 mb-3">
+                            <div class="card-body">
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis
+                                    voluptatum et
+                                    est,
+                                    reprehenderit sit consequatur ad, voluptates perferendis quisquam quaerat qui?
+                                    Temporibus,
+                                    omnis
+                                    quasi! Doloremque nihil vel aut eius odit.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-12 col-lg-4 mb-3">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur provident ab
+                                neque
+                                hic.
+                                Dolores ea vel quis, placeat itaque dolorum, ratione blanditiis est minima
+                                perspiciatis
+                                rem
+                                nisi
+                                vitae, dolorem facere?
+                            </p>
+                        </div>
+                    </div>
+
+                    <div id="tabla2" class="row align-items-start"">
+                    <div class=" col-12 col-md-12 col-lg-4 mb-3">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur provident ab neque
+                            hic.
+                            Dolores ea vel quis, placeat itaque dolorum, ratione blanditiis est minima perspiciatis
+                            rem
+                            nisi
+                            vitae, dolorem facere?
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mb-3">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur provident ab neque
+                            hic.
+                            Dolores ea vel quis, placeat itaque dolorum, ratione blanditiis est minima perspiciatis
+                            rem
+                            nisi
+                            vitae, dolorem facere?
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mb-3">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur provident ab neque
+                            hic.
+                            Dolores ea vel quis, placeat itaque dolorum, ratione blanditiis est minima perspiciatis
+                            rem
+                            nisi
+                            vitae, dolorem facere?
+                        </p>
+                    </div>
+                </div>
+                <div id="tabla3" class="row justify-content-start">
+                    <div class="col-12 col-md-12 col-lg-4 mb-3">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur provident ab neque
+                            hic.
+                            Dolores ea vel quis, placeat itaque dolorum, ratione blanditiis est minima perspiciatis
+                            rem
+                            nisi
+                            vitae, dolorem facere?
+                        </p>
+                    </div>
+                    <div class="col-12 col-md-12 col-lg-4 mb-3">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur provident ab neque
+                            hic.
+                            Dolores ea vel quis, placeat itaque dolorum, ratione blanditiis est minima perspiciatis
+                            rem
+                            nisi
+                            vitae, dolorem facere?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async></script>
+</body>
+
+</html>
